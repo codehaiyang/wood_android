@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_page"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:id="@+id/ll_menu_home"
+                style="@style/menuTab">
+
+                <ImageView
+                    style="@style/menuIconStyle"
+                    android:src="@drawable/selector_icon_menu_home"/>
+
+                <TextView
+                    style="@style/menuTextStyle"
+                    android:text="首页"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_menu_service"
+                style="@style/menuTab">
+
+                <ImageView
+                    style="@style/menuIconStyle"
+                    android:src="@drawable/selector_icon_menu_service"/>
+
+                <TextView
+                    style="@style/menuTextStyle"
+                    android:text="服务"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_menu_square"
+                style="@style/menuTab">
+
+                <ImageView
+                    style="@style/menuIconStyle"
+                    android:src="@drawable/selector_icon_menu_square"/>
+
+                <TextView
+                    style="@style/menuTextStyle"
+                    android:text="广场"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_menu_my"
+                style="@style/menuTab">
+
+                <ImageView
+                    style="@style/menuIconStyle"
+                    android:src="@drawable/selector_icon_menu_my"/>
+
+                <TextView
+                    style="@style/menuTextStyle"
+                    android:text="我的"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

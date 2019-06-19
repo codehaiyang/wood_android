@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mucai_Android</string>
+
+    <string name="bottom_bervaior">com.playa.aiy.playandroid.utils.behavior.BottomNavigationBehavior</string>
+    <string name="edit_hint_phone">请输入手机号码</string>
+    <string name="edit_hint_pwd">请输入您的密码</string>
+    <string name="btn_login">登陆</string>
+    <string name="btn_pwd_login">密码登录</string>
+    <string name="tv_tps_login">登录即表示同意《天华服务协议》</string>
+    <string name="tv_company">©2017 菏泽聚众实业有限公司</string>
+</resources>
